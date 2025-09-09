@@ -21,18 +21,18 @@
 	height: 10rem;
 	aspect-ratio: 1;
 	/* width: 4rem; */
+	background-repeat: no-repeat;
+	background-size: contain;
+  background-position: center;
+
 }
 
-.logoBox-left{
+.logoBox-left {
 	background-image: url(../images/left.jpg);
-	background-repeat: no-repeat;
-	background-size: contain;
 }
 
-.logoBox-right{
+.logoBox-right {
 	background-image: url(../images/right.jpg);
-	background-repeat: no-repeat;
-	background-size: contain;
 }
 
 body {

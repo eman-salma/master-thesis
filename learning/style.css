@@ -59,3 +59,27 @@ section{
   cursor: pointer;
 }
 
+[class*="logoBox"] {
+	background-color: #fff;
+	height: 10rem;
+	aspect-ratio: 1;
+	/* width: 4rem; */
+	background-repeat: no-repeat;
+	background-size: 80%;
+  background-position: center;
+}
+
+.logoBox-center {
+  border-radius: 100%;
+	background-image: url(../images/right.jpg);
+  margin: 1rem;
+  border: 1px solid gray;
+  box-shadow: 0 0 10px #00000059;
+}
+
+.loginBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
